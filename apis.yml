@@ -1,8 +1,26 @@
 aid: tensixteen-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tensixteen-bio.png
 name: TenSixteen Bio
-description: 'TenSixteen Bio is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'TenSixteen Bio is a San Francisco-based clinical-stage biotechnology company pioneering
+  the study of somatic mosaicism and clonal hematopoiesis of indeterminate potential (CHIP) to
+  discover and develop novel therapeutics for age-related diseases including cancer and cardiovascular
+  disease. Founded by CEO Mark Chao and launched in 2022 with a $40M Series A from Foresite Capital
+  and GV (formerly Google Ventures), the company combines human genetics, functional genomics and
+  next-generation-sequencing (NGS) based assays to identify CHIP-linked mutations and translate them
+  into companion diagnostics and precision-medicine treatments. This profile was added to the API
+  Evangelist network as a portfolio-company lead; as a therapeutics and diagnostics company it
+  publishes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/tensixteen-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Precision Medicine
+- Genomics
+- Clonal Hematopoiesis
+- Therapeutics
+- Diagnostics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tensixteen-bio-domain-security.yml
+- type: Website
+  url: https://tensixteen.bio/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tensixteenbio
+- type: Twitter
+  url: https://x.com/tensixteenbio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
